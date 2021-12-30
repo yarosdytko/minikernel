@@ -1,0 +1,137 @@
+init: comienza
+-> PROC 0: CREAR PROCESO
+init: termina
+-> FIN PROCESO id: 0
+-> C.CONTEXTO POR FIN: de 0 a 1
+prueba_RR2: comienza
+-> PROC 1: CREAR PROCESO
+-> PROC 1: CREAR PROCESO
+-> PROC 1: CREAR PROCESO
+-> PROC 1: CREAR PROCESO
+-> PROC 1: CREAR PROCESO
+prueba_RR2: termina
+-> FIN PROCESO id: 1
+-> C.CONTEXTO POR FIN: de 1 a 0
+-> TRATANDO INT. DE RELOJ
+Porceso id: 0, contador de ticks restantes: 4
+-> TRATANDO INT. DE RELOJ
+Porceso id: 0, contador de ticks restantes: 3
+-> TRATANDO INT. DE RELOJ
+Porceso id: 0, contador de ticks restantes: 2
+-> TRATANDO INT. DE RELOJ
+Porceso id: 0, contador de ticks restantes: 1
+-> TRATANDO INT. DE RELOJ
+Porceso id: 0, contador de ticks restantes: 0
+Proceso id: 0, activando interrupcion SW
+-> TRATANDO INT. SW
+C.CONTEXTO POR EXPULSION de 0 a 2
+-> TRATANDO INT. DE RELOJ
+Porceso id: 2, contador de ticks restantes: 4
+-> TRATANDO INT. DE RELOJ
+Porceso id: 2, contador de ticks restantes: 3
+-> TRATANDO INT. DE RELOJ
+Porceso id: 2, contador de ticks restantes: 2
+-> TRATANDO INT. DE RELOJ
+Porceso id: 2, contador de ticks restantes: 1
+-> TRATANDO INT. DE RELOJ
+Porceso id: 2, contador de ticks restantes: 0
+Proceso id: 2, activando interrupcion SW
+-> TRATANDO INT. SW
+C.CONTEXTO POR EXPULSION de 2 a 3
+-> TRATANDO INT. DE RELOJ
+Porceso id: 3, contador de ticks restantes: 4
+-> TRATANDO INT. DE RELOJ
+Porceso id: 3, contador de ticks restantes: 3
+-> TRATANDO INT. DE RELOJ
+Porceso id: 3, contador de ticks restantes: 2
+-> TRATANDO INT. DE RELOJ
+Porceso id: 3, contador de ticks restantes: 1
+-> TRATANDO INT. DE RELOJ
+Porceso id: 3, contador de ticks restantes: 0
+Proceso id: 3, activando interrupcion SW
+-> TRATANDO INT. SW
+C.CONTEXTO POR EXPULSION de 3 a 4
+-> TRATANDO INT. DE RELOJ
+Porceso id: 4, contador de ticks restantes: 4
+-> TRATANDO INT. DE RELOJ
+Porceso id: 4, contador de ticks restantes: 3
+-> TRATANDO INT. DE RELOJ
+Porceso id: 4, contador de ticks restantes: 2
+-> TRATANDO INT. DE RELOJ
+Porceso id: 4, contador de ticks restantes: 1
+-> TRATANDO INT. DE RELOJ
+Porceso id: 4, contador de ticks restantes: 0
+Proceso id: 4, activando interrupcion SW
+-> TRATANDO INT. SW
+C.CONTEXTO POR EXPULSION de 4 a 5
+-> TRATANDO INT. DE RELOJ
+Porceso id: 5, contador de ticks restantes: 4
+-> TRATANDO INT. DE RELOJ
+Porceso id: 5, contador de ticks restantes: 3
+-> TRATANDO INT. DE RELOJ
+Porceso id: 5, contador de ticks restantes: 2
+-> TRATANDO INT. DE RELOJ
+Porceso id: 5, contador de ticks restantes: 1
+-> TRATANDO INT. DE RELOJ
+Porceso id: 5, contador de ticks restantes: 0
+Proceso id: 5, activando interrupcion SW
+-> TRATANDO INT. SW
+C.CONTEXTO POR EXPULSION de 5 a 0
+-> TRATANDO INT. DE RELOJ
+Porceso id: 0, contador de ticks restantes: 4
+-> TRATANDO INT. DE RELOJ
+Porceso id: 0, contador de ticks restantes: 3
+-> TRATANDO INT. DE RELOJ
+Porceso id: 0, contador de ticks restantes: 2
+mudo (0): termina
+-> FIN PROCESO id: 0
+-> C.CONTEXTO POR FIN: de 0 a 2
+-> TRATANDO INT. DE RELOJ
+Proceso id: 2, activando interrupcion SW
+-> TRATANDO INT. SW
+C.CONTEXTO POR EXPULSION de 2 a 3
+-> TRATANDO INT. DE RELOJ
+Porceso id: 3, contador de ticks restantes: 4
+-> TRATANDO INT. DE RELOJ
+Porceso id: 3, contador de ticks restantes: 3
+-> TRATANDO INT. DE RELOJ
+Porceso id: 3, contador de ticks restantes: 2
+mudo (3): termina
+-> FIN PROCESO id: 3
+-> C.CONTEXTO POR FIN: de 3 a 4
+-> TRATANDO INT. DE RELOJ
+Proceso id: 4, activando interrupcion SW
+-> TRATANDO INT. SW
+C.CONTEXTO POR EXPULSION de 4 a 5
+-> TRATANDO INT. DE RELOJ
+Porceso id: 5, contador de ticks restantes: 4
+-> TRATANDO INT. DE RELOJ
+Porceso id: 5, contador de ticks restantes: 3
+-> TRATANDO INT. DE RELOJ
+Porceso id: 5, contador de ticks restantes: 2
+mudo (5): termina
+-> FIN PROCESO id: 5
+-> C.CONTEXTO POR FIN: de 5 a 2
+-> TRATANDO INT. DE RELOJ
+Proceso id: 2, activando interrupcion SW
+-> TRATANDO INT. SW
+C.CONTEXTO POR EXPULSION de 2 a 4
+-> TRATANDO INT. DE RELOJ
+Porceso id: 4, contador de ticks restantes: 4
+-> TRATANDO INT. DE RELOJ
+Porceso id: 4, contador de ticks restantes: 3
+-> TRATANDO INT. DE RELOJ
+Porceso id: 4, contador de ticks restantes: 2
+mudo (4): termina
+-> FIN PROCESO id: 4
+-> C.CONTEXTO POR FIN: de 4 a 2
+-> TRATANDO INT. DE RELOJ
+Proceso id: 2, activando interrupcion SW
+-> TRATANDO INT. SW
+Proceso id: 2, contador de ticks actualizado
+-> TRATANDO INT. DE RELOJ
+Porceso id: 2, contador de ticks restantes: 4
+-> TRATANDO INT. DE RELOJ
+Porceso id: 2, contador de ticks restantes: 3
+mudo (2): termina
+-> FIN PROCESO id: 2
